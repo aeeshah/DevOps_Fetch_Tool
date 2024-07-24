@@ -26,7 +26,7 @@ The setup script installs the following dependencies:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/aeeshah/DevOps_Fetch_Tool/edit/main/README.md
+    git clone https://github.com/aeeshah/DevOps_Fetch_Tool.git
     cd DevOps_Fetch_Tool
     ```
 
