@@ -1,0 +1,11 @@
+[Unit]
+Description=System Monitoring 
+
+[Service]
+ExecStart=/usr/local/bin/monitor.sh
+Restart=always
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target
