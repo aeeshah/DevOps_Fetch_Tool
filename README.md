@@ -26,8 +26,8 @@ The setup script installs the following dependencies:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/<your-username>/system-monitoring.git
-    cd system-monitoring
+    git clone https://github.com/aeeshah/DevOps_Fetch_Tool/edit/main/README.md
+    cd DevOps_Fetch_Tool
     ```
 
 2. **Run the setup script:**
@@ -59,7 +59,7 @@ The service configuration is placed in `/etc/systemd/system/system_monitor.servi
 
 ## Monitoring Script
 
-The `monitor.sh` script performs the following tasks every 60 seconds:
+The `monitor.sh` script performs the following tasks every 300 seconds:
 - Logs active TCP ports and services.
 - Logs Docker containers and their statuses.
 - Logs Nginx domain configurations.
